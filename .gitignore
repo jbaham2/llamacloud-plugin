@@ -1,0 +1,23 @@
+# Authoring scratch — never ship
+workbench/
+.remember/
+
+# Planning inputs (kept locally, not part of the shipped plugin)
+llamacloud-doc-roadmap.md
+llamacloud-plugin-prompt.md
+plugin-plan.md
+plugin-creator.md
+prompt-builder.md
+roadmap-prompt.md
+workflow.md
+
+# Secrets & env
+.env
+*.local.md
+.claude/*.local.md
+
+# Caches
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/

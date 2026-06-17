@@ -1,0 +1,24 @@
+{
+  "name": "llamacloud-marketplace",
+  "owner": {
+    "name": "jbaham2",
+    "email": "jbaham2@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "llamacloud",
+      "source": "./",
+      "description": "Expert skills, agents, and commands for LlamaCloud (Parse v2, Extract v2, Classify, Split, Sheets, Cloud Index), LiteParse, the LlamaIndex framework, and agentic Workflows. Wires the official LlamaIndex docs MCP for live fact lookups.",
+      "version": "0.1.0",
+      "category": "ai",
+      "keywords": [
+        "llamacloud",
+        "llamaindex",
+        "rag",
+        "document-extraction",
+        "parsing",
+        "workflows"
+      ]
+    }
+  ]
+}

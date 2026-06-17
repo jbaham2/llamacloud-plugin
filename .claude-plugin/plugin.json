@@ -1,0 +1,20 @@
+{
+  "name": "llamacloud",
+  "version": "0.1.0",
+  "description": "Makes Claude an expert at LlamaCloud (Parse, Extract, Classify, Split, Sheets, Cloud Index), LiteParse, and the LlamaIndex framework + agentic Workflows. Skills hold durable judgment; the wired LlamaIndex docs MCP fetches current API facts live.",
+  "author": {
+    "name": "jbaham2",
+    "email": "jbaham2@gmail.com"
+  },
+  "keywords": [
+    "llamacloud",
+    "llamaindex",
+    "llamaparse",
+    "rag",
+    "document-extraction",
+    "parsing",
+    "retrieval",
+    "agents",
+    "workflows"
+  ]
+}
