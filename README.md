@@ -19,14 +19,21 @@ provided in both **Python** (`llama-cloud-services`) and **TypeScript**.
 This repo is both the plugin and a single-plugin marketplace.
 
 ```
-/plugin marketplace add /home/jbaham2/plugins/llamaindex-plugin
+/plugin marketplace add jbaham2/llamacloud-plugin
+/plugin install llamacloud@llamacloud-marketplace
+```
+
+Already cloned the repo? Add it from the checkout instead of GitHub:
+
+```
+/plugin marketplace add .        # run from the repo root
 /plugin install llamacloud@llamacloud-marketplace
 ```
 
 Or test locally without installing:
 
 ```
-claude --plugin-dir /home/jbaham2/plugins/llamaindex-plugin
+claude --plugin-dir /path/to/llamacloud-plugin
 ```
 
 ### Prerequisites

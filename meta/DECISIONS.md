@@ -30,8 +30,8 @@ live" is mitigated by keeping inline snippets minimal/illustrative and pointing 
 signatures. Recorded as an accepted trade-off.
 
 ## D7 — Plugin root = working dir (2026-06-17)
-Plugin root is `/home/jbaham2/plugins/llamaindex-plugin`. Planning `.md` files + `workbench/` are
-gitignored so only plugin dirs ship.
+Plugin root is the repository root (the `llamacloud-plugin` checkout). Planning `.md` files +
+`workbench/` are gitignored so only plugin dirs ship.
 
 ## D8 — No hooks shipped (2026-06-17)
 Considered a non-blocking PostToolUse "nudge" when v1 Parse/Extract SDK patterns appear in user
